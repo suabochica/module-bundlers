@@ -1,16 +1,18 @@
 {
-  "name": "webpack",
+  "name": "parcel",
   "version": "1.0.0",
-  "description": "",
+  "description": "Parcel bundler example",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel public/index.html -p 5000"
   },
   "devDependencies": {
-      "react": "16.13.1",
-      "react-dom": "16.13.1"
+    "parcel-bundler": "^1.12.4",
+    "postcss-nesting": "^7.0.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   },
   "keywords": [],
-  "author": "",
+  "author": "suabochica",
   "license": "ISC"
 }
